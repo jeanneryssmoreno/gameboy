@@ -1,0 +1,164 @@
+body {
+    background-color: pink
+    ;
+}
+
+.game-boy{
+    width: 270px;
+    height: 450px;
+    background-color: rgb(50, 114, 114);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3%;
+    border-bottom-right-radius: 50px;
+    box-shadow: 3px 5px 5px palevioletred
+}
+
+.screen-border {
+    width: 80%;
+    height: 50%;
+    background-color: violet;
+    position: absolute;
+    top:30px;
+    left: 25px;
+    border-radius: 6%;
+    border-top-right-radius: 50px;
+}
+
+.line-red {
+    width: 78%;
+    height: 2px;
+    background-color: red;
+    margin: 0 auto;
+    margin-top:8px;
+}
+
+.screen{
+    width: 79%;
+    height: 80%;
+    background-color: rgb(194, 207, 205);
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.power {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: brown;
+    position:absolute ;
+    top: 60px;
+    left: 5px;
+}
+
+.gb{
+    float: left;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.d-pad {
+    width: 60px;
+    height: 60px;
+ position: relative;
+top: 70%;
+left: 10%;
+border-radius: 50px;
+}
+
+.d-y {
+    width: 20px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+}
+
+.d-x{
+    width: 60px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+}
+
+.buttons {
+
+    width: 30px;
+    height: 70px;
+    background-color: rgb(29, 166, 221);
+box-shadow: 2px 2px 2px rgb(139, 72, 186);
+position: absolute;
+top: 63%;
+right: 41%;
+transform: rotate(60deg);
+border-radius: 15px;
+
+}
+
+.b-a {
+
+    width: 22px;
+    height: 22px;
+    background-color: violet;
+    border-radius: 10px;
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    box-shadow: 2px 2px 2px rgb(224, 47, 255);
+}
+
+.b-b{
+    width: 22px;
+    height: 22px;
+    background-color: rgb(219, 168, 241);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    box-shadow: 2px 2px 2px rgb(197, 78, 177);
+}
+
+.buttons_s {
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 84%;
+    left: 30%;
+}
+
+.start{
+    width: 7px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: rgb(7, 7, 21);
+transform: rotate(50deg);
+box-shadow: 2px 2px 2px 3px rgb(203, 123, 192);
+
+position: absolute ;
+left: 150px;
+bottom: 100px;
+}
+
+.star2 {
+    width: 7px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: rgb(7, 7, 21);
+transform: rotate(1deg);
+box-shadow: 2px 2px 2px 3px rgb(203, 123, 192);
+position: absolute ;
+left: 20px;
+
+
+}
